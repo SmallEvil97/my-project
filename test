@@ -1,4 +1,4 @@
-from SandBox.analysis_text import *
+from SandBox.analysis_text1 import *
 import pylab
 import time
 dat = []
