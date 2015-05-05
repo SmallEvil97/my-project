@@ -1,4 +1,4 @@
-from SandBox.Anlitik_test import *
+from SandBox.analysis_text import *
 import pylab
 import time
 dat = []
@@ -9,7 +9,7 @@ for n in range(30):
     dat.extend(b)
     pylab.subplot (2, 1, 1)
     pylab.plot (dat,'go-')
-    pylab.title ("Chart Analitik_test")
+    pylab.title ("Chart Analysis_Text")
     pylab.subplot (2, 1, 2)
     pylab.plot (ylist,'go-')
     pylab.title ("Chart")        
