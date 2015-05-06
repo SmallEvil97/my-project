@@ -1,10 +1,10 @@
 from SandBox.analysis_text import *
 import pylab
 import time
-e = 2
 dat = []
 ylis = [25,12.5,8.75,7.5,5,5,3.75,3.75,2.6,2.6,2.6,2.6,2,2,2,2,2,2,2,2]
 dat.extend(b)
+e = 2
 pylab.ion()
 for n in range(10):
     q = [(e + n / 2)]
